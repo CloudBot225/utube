@@ -45,8 +45,10 @@ class Uploader:
 
             properties = dict(
                 title = self.title if self.title else os.path.basename(self.file),
-                description = 'Uploaded to youtube with https://t.me/youtubeitbot',
-                category = 27,
+                description = 'ToonMedia is a YouTube platform which posts many and so many cartoons for you. It posts nearly every video within a hour.
+ Thanks for Watching. 
+Please Subscribe our Channel for more cartoons.',
+                category = 27, 
                 privacyStatus = 'private'
             )
 
